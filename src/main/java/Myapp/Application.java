@@ -6,6 +6,7 @@ package Myapp;
 
 	@SpringBootApplication
 	@Import (Swagger.class) //for Swagger documentation - Swagger home http://localhost:8080/swagger-ui.html
+	//heroku url https://myapp-e401150.herokuapp.com/test
 	public class Application {
 
 		public static void main(String[] args) {
